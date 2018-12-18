@@ -4,9 +4,15 @@
         <listener class-name="com.teaminternational.coe.utils.testng.TimeoutTransformer"/>
         <listener class-name="com.teaminternational.coe.utils.testng.ThreadCountTransformer"/>
     </listeners>
-    <test name="Test1" enabled="true" verbose="10">
+    <test name="Test1" enabled="false" verbose="10">
         <classes>
             <class name="com.teaminternational.coe.tests.example.TestExamples">
+            </class>
+        </classes>
+    </test>
+    <test name="Alexey Test" enabled="true" verbose="10">
+        <classes>
+            <class name="com.teaminternational.coe.tests.example.SauceDemoTest">
             </class>
         </classes>
     </test>

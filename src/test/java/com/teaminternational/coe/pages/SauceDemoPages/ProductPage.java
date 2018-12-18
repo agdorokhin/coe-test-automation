@@ -1,4 +1,4 @@
-package com.teaminternational.coe.tests.my.tests;
+package com.teaminternational.coe.pages.SauceDemoPages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
@@ -10,9 +10,9 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class ProductPage {
-    public SelenideElement productPageWlcMsg = $(".product_label");
-    public SelenideElement cartLabel = $(".fa-layers-counter");
-    public SelenideElement openCartBtn = $(".fa-shopping-cart");
+    public SelenideElement productPageWlcMsg = $(".product_label"),
+    cartLabel = $(".fa-layers-counter"),
+    openCartBtn = $(".fa-shopping-cart");
 
     public ProductPage(){
         productPageWlcMsg.shouldBe(Condition.visible);

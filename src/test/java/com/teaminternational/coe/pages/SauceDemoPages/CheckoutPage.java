@@ -1,4 +1,4 @@
-package com.teaminternational.coe.tests.my.tests;
+package com.teaminternational.coe.pages.SauceDemoPages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
@@ -6,11 +6,11 @@ import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Selenide.$;
 
 public class CheckoutPage {
-    public SelenideElement checkoutWlcMsg = $(".subheader_label");
-    SelenideElement firstNameField = $("[data-test='firstName']");
-    SelenideElement lastNameField = $("[data-test='lastName']");
-    SelenideElement zipCode = $("[data-test='postalCode']");
-    SelenideElement continueCheckoutBtn = $(".cart_checkout_link");
+    public SelenideElement checkoutWlcMsg = $(".subheader_label"),
+    firstNameField = $("[data-test='firstName']"),
+    lastNameField = $("[data-test='lastName']"),
+    zipCode = $("[data-test='postalCode']"),
+    continueCheckoutBtn = $(".cart_checkout_link");
 
     public CheckoutPage() {
         checkoutWlcMsg.shouldBe(Condition.visible);
