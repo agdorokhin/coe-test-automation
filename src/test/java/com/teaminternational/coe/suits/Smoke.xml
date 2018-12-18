@@ -12,7 +12,7 @@
     </test>
     <test name="Alexey Test" enabled="true" verbose="10">
         <classes>
-            <class name="com.teaminternational.coe.tests.example.SauceDemoTest">
+            <class name="com.teaminternational.coe.tests.saucedemo.SauceDemoTest">
             </class>
         </classes>
     </test>
