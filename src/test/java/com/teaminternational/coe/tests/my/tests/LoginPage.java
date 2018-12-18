@@ -15,6 +15,5 @@ public class LoginPage {
         password.setValue(pwd);
         loginBtn.click();
         //return new LoginPage();
-
     }
 }
